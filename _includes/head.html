@@ -1,0 +1,43 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<link rel="shortcut icon" type="image/png" href="/icon.png" />
+
+	<!-- Css -->
+	<link rel="stylesheet" href="/assets/css/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="/assets/css/font.css" />
+	<link rel="stylesheet" href="/assets/css/main.css" />
+
+	<!-- Script -->
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/home.js"></script>
+</head>
+
+
+<!-- Google Ad -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-9787598465221803",
+          enable_page_level_ads: true
+     });
+</script>
+<script type="text/javascript">
+	// 모바일 여부 체크
+	var filter = "win16|win32|win64|mac";
+	
+	$(document).ready(function(){
+		if(navigator.platform){
+
+			if(0 > filter.indexOf(navigator.platform.toLowerCase())){
+			
+				// mobile
+				$(".sitewidth").addClass("mobile");
+			}
+			else{
+
+				// pc
+			}
+		}
+	});
+</script>

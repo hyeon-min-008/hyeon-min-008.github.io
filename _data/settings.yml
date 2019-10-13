@@ -1,0 +1,16 @@
+# Change 'comments' to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'apham'
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-ID: ''
+
+menu: 
+  - name: ABOUT
+    link: /
+  - name: PORTFOLIO
+    link: /portfolio
+  - name: CONTACT
+    link: /contact
+    
