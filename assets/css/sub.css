@@ -5,6 +5,12 @@
 
 .page-index{}
 .page-index .section{background-size:cover;background-position:center;background-repeat:no-repeat;}
+.page-index .section01 .section-content{position:relative;transition:all 0.5s ease;opacity:0;}
+.page-index .section01 .section-content.active{opacity:1;}
+.page-index .section01 .section-content > div{color:#fff;text-align:center;letter-spacing:3px;}
+.page-index .section01 .section-content .text1{font-size:48px;}
+.page-index .section01 .section-content .text2{font-size:28px;font-weight:100;margin-top:20px;}
+.page-index .section01 .section-content .text3{font-size:18px;font-weight:100;}
 
 
 

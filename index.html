@@ -4,6 +4,16 @@ description: Sharing about Application Development, Integration, Cloud, Big Data
 comments: false 
 --->
 
+<!-- Css -->
+<link rel="stylesheet" href="./assets/css/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" href="./assets/css/font.css" />
+<link rel="stylesheet" href="./assets/css/layout.css" />
+
+<!-- Script -->
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/layout.js"></script>
+	
+	
 <!-- css -->
 <link rel="stylesheet" href="./assets/slick/slick.css" />
 <link rel="stylesheet" href="./assets/slick/slick-theme.css" />
@@ -20,19 +30,23 @@ comments: false
 
 
 <div id="fullpage" class="page page-index">
-	<div class="section" style="background-image:url('./assets/images/index/background-01.png')">
+	<div class="section section01" style="background-image:url('./assets/images/index/background-01.png')">
+		<div class="page_event_box section-content">
+			<div class="font-myeongjo text1">ROH HYEON MIN</div>
+			<div class="text2">WEB DEVEOLPOR</div>
+			<div class="text3">1997.08.18</div>
+		</div>
+	</div>
+	
+	<div class="section section02" style="background-image:url('./assets/images/index/background-02.png')">
 
 	</div>
 	
-	<div class="section" style="background-image:url('./assets/images/index/background-02.png')">
+	<div class="section section03" style="background-image:url('./assets/images/index/background-03.png')">
 
 	</div>
 	
-	<div class="section" style="background-image:url('./assets/images/index/background-03.png')">
-
-	</div>
-	
-	<div class="section" style="background-image:url('./assets/images/index/background-04.png')">
+	<div class="section section04" style="background-image:url('./assets/images/index/background-04.png')">
 
 	</div>
 </div>
@@ -46,8 +60,7 @@ comments: false
 <script src="./assets/js/sub.js"></script>
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
-        anchors: ['firstPage', 'secondPage', '3rdPage'],
-        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+        anchors: ['first', 'aboutMe', 'keyword', 'skills'],
         responsiveHeight: 600,
         afterResponsive: function(isResponsive){
 
