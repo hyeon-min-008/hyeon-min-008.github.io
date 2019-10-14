@@ -17,6 +17,11 @@ body{margin:0;padding:0;overflow-y:auto;}
 .header .navbar ul:after{content:"";display:block;clear:both;}
 .header .navbar ul li{float:left;height:60px;line-height:60px;width:100px;text-align:center;}
 .header .navbar ul li a{text-decoration:none;color:#000;font-size:16px;display:block;}
+@media screen and (max-width: 480px) { 
+	.header .logo_box{display:none;}
+	.header .navbar{float:none;text-align:center;}
+	.header .navbar ul{display:inline-block;}
+}
 
 
 /*common*/

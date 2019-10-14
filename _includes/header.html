@@ -1,20 +1,18 @@
 <div class="header">
-	<div class="sitewidth">
-		<div class="logo_box"><a href="/">HYEONMIN</a></div>
-		
-		<nav class="navbar">
-			<ul class="nav navbar-nav">
-				{% for item in site.data.settings.menu %}
-					<!-- If has submenues -->
-					{% if item.submenu %}
-					<li>
-						<a href="#">{{item.name}}</a>
-						</li>
-					{% else %}
-						<li><a href="{{item.link}}">{{item.name}}</a></li>
-					{% endif %}
-				{% endfor %}
-			</ul>
-		</nav>
-	</div>
+	<div class="logo_box"><a href="/">HYEONMIN</a></div>
+	
+	<nav class="navbar">
+		<ul class="nav navbar-nav">
+			{% for item in site.data.settings.menu %}
+				<!-- If has submenues -->
+				{% if item.submenu %}
+				<li>
+					<a href="#">{{item.name}}</a>
+					</li>
+				{% else %}
+					<li><a href="{{item.link}}">{{item.name}}</a></li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</nav>
 </div>
