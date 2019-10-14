@@ -1,3 +1,18 @@
+$(window).on('scroll',function() {
+    
+	var scrollValue = $(document).scrollTop();
+	
+	if( scrollValue < 10 ){
+		
+		$(".header").removeClass("active");
+	}
+	else{
+		
+		$(".header").addClass("active");
+	}
+
+});
+	
 /************************************
 	스크롤 이벤트 박스
 ************************************/

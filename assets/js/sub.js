@@ -1,8 +1,8 @@
-/************************************
-	slick
-************************************/
 $(document).ready(function(){
-
+	
+	/************************************
+		slick
+	************************************/
 	//var $slider=$(".skill_box ul").slick({
 	//	autoplay: true, //자동슬라이드
 	//	autoplaySpeed: 2000,
@@ -31,20 +31,18 @@ $(document).ready(function(){
 		});
     });
 	
-	
-	$(window).on('scroll',function() {
-    
-		var scrollValue = $(document).scrollTop();
+	$(".page-index .section04 li").on("click", function(){
 		
-		if( scrollValue < 10 ){
-			
-			$(".header").removeClass("active");
-		}
-		else{
-			
-			$(".header").addClass("active");
-		}
-
+		$(".page-index .section04 li").removeClass("on");
+		$(this).addClass("on");
+		
+		var percent = $(this).data("percent");
+		
+		var bar = $(".page-index .section04 .my-ab-box dd span");
+		bar.animate({ width : "0" },0, function() {
+			bar.animate({ width : percent+"%" },500, function(){});
+		});
+		
 	});
 });
 
