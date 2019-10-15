@@ -1,7 +1,7 @@
 *{font-family:'Noto Sans KR', sans-serif;font-size:14px;color:#333;}
 body{margin:0;padding:0;overflow-y:auto;}
 
-.sitewidth{max-width:1200px;margin:0 auto;}
+.sitewidth{max-width:1300px;margin:0 auto;padding:0 30px;box-sizing:border-box;}
 .sitewidth.mobile{}
 .fullpage_box .fullpage{position:relative;background-color:#efefef;background-size:cover;background-position:center;background-repeat:no-repeat;}
 .slick-slide{outline:none !important;}

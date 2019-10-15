@@ -98,8 +98,17 @@
 .page-portfolio > ul > li > a .col_tag:after{content:"";display:block;clear:both;}
 .page-portfolio > ul > li > a .col_tag li{float:left;color:#a8a09d;}
 .page-portfolio > ul > li > a .col_tag li:nth-child(n+2):before{content:"|";padding:0 10px;}
-.page-portfolio > ul > li > a .col_tit{margin-top:15px;font-size:18px;font-weight:600;padding:0 2px;}
+.page-portfolio > ul > li > a .col_tit{margin-top:15px;font-size:18px;font-weight:600;padding:0 2px;color:#333;}
 .page-portfolio > ul > li > a .col_date{margin-top:20px;padding:0 5px;color:#888;}
+@media screen and (max-width: 800px){ 
+	.page-portfolio > ul > li{float:left;width:calc(50% - 30px);}
+	.page-portfolio > ul > li:nth-child(n+2){margin-left:30px;}
+	.page-portfolio > ul > li:nth-child(2n+1){margin-left:0;}
+}
+@media screen and (max-width: 480px){ 
+	.page-portfolio > ul > li{float:left;width:100%;}
+	.page-portfolio > ul > li:nth-child(n+2){margin-left:0;}
+}
 
 
 
