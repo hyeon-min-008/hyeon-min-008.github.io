@@ -4,12 +4,10 @@ description: Sharing about Application Development, Integration, Cloud, Big Data
 comments: false 
 ---
 
-<!-- Css -->
+<!-- Script 
 <link rel="stylesheet" href="./assets/css/font-awesome/css/font-awesome.min.css" />
 <link rel="stylesheet" href="./assets/css/font.css" />
 <link rel="stylesheet" href="./assets/css/layout.css" />
-
-<!-- Script 
 <script src="./assets/js/jquery.min.js"></script>
 <script src="./assets/js/layout.js"></script>
 -->	
@@ -205,6 +203,8 @@ comments: false
 <script src="./assets/js/sub.js"></script>
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
+		navigation: true,
+        navigationPosition: 'right',
         anchors: ['first', 'aboutMe', 'keyword', 'skills'],
         responsiveHeight: 800,
 		afterLoad: function(e){

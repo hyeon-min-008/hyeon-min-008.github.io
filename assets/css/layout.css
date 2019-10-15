@@ -11,12 +11,13 @@ body{margin:0;padding:0;overflow-y:auto;}
 .header:after{content:"";display:block;clear:both;}
 .header.active{}
 .header .logo_box{float:left;}
-.header .logo_box a{text-decoration:none;font-size:26px;font-weight:500;letter-spacing:0.5px;}
+.header .logo_box a{text-decoration:none;font-size:24px;font-weight:300;letter-spacing:0.5px;color:#fff;}
 .header .navbar{float:right;}
 .header .navbar ul{margin:0;list-style:none;padding:0;}
 .header .navbar ul:after{content:"";display:block;clear:both;}
 .header .navbar ul li{float:left;height:60px;line-height:60px;width:100px;text-align:center;}
 .header .navbar ul li a{text-decoration:none;color:#fff;font-size:16px;display:block;}
+.header.black a{color:#000 !important;}
 @media screen and (max-width: 480px) { 
 	.header .logo_box{display:none;}
 	.header .navbar{float:none;text-align:center;}
