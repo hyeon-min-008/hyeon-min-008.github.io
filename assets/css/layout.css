@@ -3,7 +3,7 @@ body{margin:0;padding:0;overflow-y:auto;}
 
 .sitewidth{max-width:1300px;margin:0 auto;padding:0 30px;box-sizing:border-box;}
 .sitewidth.mobile{}
-.fullpage_box .fullpage{position:absolute;background-color:#efefef;background-size:cover;background-position:center;background-repeat:no-repeat;}
+.fullpage_box .fullpage{background-color:#efefef;background-size:cover;background-position:center;background-repeat:no-repeat;}
 .slick-slide{outline:none !important;}
 
 /*heaer*/
